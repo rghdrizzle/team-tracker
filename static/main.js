@@ -1,4 +1,3 @@
- // Get a reference to the search form
  const form = document.getElementById('search-form');
 
       

@@ -13,3 +13,8 @@ This is a 2 tier application which is used for me to deploy it to azure via a VM
 <li>Install the necessary software on the VM, including the database server and application server.</li>
 
 <li>Deploy your application to the VM. This will typically involve copying the application files to the VM and configuring the application server to run the application.</li>
+
+<h3> The final output ( I know it looks bad ) after deploying it to a virtual machine in Azure</h3>
+<img src="https://github.com/rghdrizzle/team-tracker/blob/main/Screenshot%20(87).png">
+<p> As you can see when I search for a particular team , PSG from the image above , it gets the data from the database and displays it in the frontend . Yes , the output doesnt seem very pleasing nor pretty but the purpose here really is just to have a working 2 tier application so I can deploy it to Azure .</p>
+<p>-------Improvements to the application might come later--------</p>

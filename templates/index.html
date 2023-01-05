@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>app</title>
+</head>
+<body background="C:\Users\luqma\OneDrive\Desktop\cloud projects\2tier\templates\HD-wallpaper-football-world-sport-people-football-man-abstract.jpg">
+    
+    <style>
+        .header{
+    text-align: center;
+    color: aliceblue;
+    background-color: lightskyblue;
+    border: #007bff;
+    box-sizing: border-box;
+    
+}
+form {
+  display: flex;
+  align-items: center;
+  padding-left: 350px;
+  padding-top: 50px;
+
+}
+
+label {
+  margin-right: 1em;
+}
+
+input[type="text"] {
+  width: 30em;
+  padding: 0.5em;
+  font-size: 1em;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+button[type="submit"] {
+  padding: 0.5em 1em;
+  font-size: 1em;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #0069d9;
+}
+body{
+    background-image: url(/templates/HD-wallpaper-football-world-sport-people-football-man-abstract.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+pre{
+    border: 1px solid #ccc;
+    padding: 10px;
+    background-color: #f7f7f7;
+  }
+         
+
+
+    </style>
+    <div class="header">
+        <h1>Football Teams</h1>
+    </div>  
+    <form id="search-form">
+        <label for="team-name">Search for a team:</label>
+        <input type="text" id="team-name" name="team-name">
+        <button type="submit">Search</button>
+      </form>
+    
+    <div id="result"></div>
+    <img id ="team-logo" src="/search/img">
+    
+    
+      
+      <script src="/static/main.js">
+      </script>
+      
+    
+    
+
+    
+</body>
+</html>
+
+
+

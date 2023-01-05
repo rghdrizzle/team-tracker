@@ -1,6 +1,6 @@
 # team-tracker
-Search football teams and get information about them . Made with python , flask , js , html .
-This is a 2 tier application which is used for me to deploy it to azure via a VM or Azure Functions. So it is basically a learning project , so dont mind the frontend (its very basic and lame) and the backend is written just to get data from the database( sqlite3 is used as a database) and display it to the frontend and this is achieved by using the fetch() function in javascript.
+Search football teams and get information about them .
+This is a 2 tier application which is used for me to deploy it to azure via a VM or Azure Functions. So it is basically a learning project , so dont mind the frontend (its very basic and lame) and the backend(flask) is written just to get data from the database( sqlite3 is used as a database) and display it to the frontend and this is achieved by using the fetch() function in javascript.
 <h4>These are the steps used to deploy the application to the cloud:</h4>
 <li>Create a new resource group in the Azure portal. A resource group is a logical container that you can use to group related resources in Azure.</li>
 

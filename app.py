@@ -14,14 +14,14 @@ def getteams():
     return jsonify(team)
 #@app.route('/search', methods=['POST'])
 #def getteam():
-    team=[{'id':1,'name':"PSG","Location":"France"},{'id':2,'name':"liverpool","Location":"England"},{'id':3,'name':"Man City","Location":"England"}]
-    result =[]
-    input_req=request.json['searchTerm']
-    for teams in team:
-        if input_req.lower() in teams['name'].lower():
-            result.append(teams)
+#    team=[{'id':1,'name':"PSG","Location":"France"},{'id':2,'name':"liverpool","Location":"England"},{'id':3,'name':"Man City","Location":"England"}]
+#    result =[]
+#    input_req=request.json['searchTerm']
+#    for teams in team:
+#        if input_req.lower() in teams['name'].lower():
+#            result.append(teams)
             
-    return result  
+ #   return result  
 
 @app.route('/search', methods=['POST'])
 def search():
